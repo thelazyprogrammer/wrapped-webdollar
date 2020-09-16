@@ -2,12 +2,12 @@
 
 Wrapped WebDollar is an ERC20 token on the Ethereum chain (currently on Ethereum Ropsten Test Network) pegged 1:1 to WEBD from WebDollar blockchain.
 
-Motivation:
+## Motivation:
 
   * Use ETH ecosystem to provide the much needed liquidity to WebDollar ecosystem
   * ETH users can easily burn WWEBD and receive that amount to their WEBD address.
 
-Ecosystem Deployment Requirements:
+## Ecosystem Deployment Requirements:
 
   * ETH contract for wrapped WEBD that creates and ERC20 token called WWEBD, pegging 1:1 WWEBD to WEBD.
   * WEBD address for the pegged (locked) WEBD
@@ -15,13 +15,13 @@ Ecosystem Deployment Requirements:
     It sends the WEBD amount to the withdraw WEBD address after 6 ETH block confirmations.
   * Web User Interface to ease the withdraw operation using Metamask integration.
 
-WWEBD Project links:
+## WWEBD Project links:
 
   * LOCKED WEBD address: TBD.
   * ETH contract address for WWEBD: TBD.
   * User interface (TESTNET): https://wwebd.shop
 
-How it works (TESTNET):
+## How it works (TESTNET):
 
   * Download and install a compatible browser (desktop app)
     * Firefox, Chrome, Brave (for Desktop) and install Metamask plugin
@@ -35,3 +35,8 @@ How it works (TESTNET):
   * After 6 confirmation on the ETH Ropsten testnet chain, the WEBD address will be credited with the withdrawn WWEBD amount.
   * Currently, you are required to withdraw all the WWEBD amount in a withdraw transaction. The transaction will fail otherwise.
   * The WEBD transaction fees are supported by the system.
+
+## Bug report
+
+Please open any issues you find on this repo.
+The WWEBD ecosystem code will be made public after the testing process is finished.
